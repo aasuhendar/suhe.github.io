@@ -1,0 +1,64 @@
+<html>
+<head>
+<title>Contact Me</title>
+<style>
+body {
+  padding: 60px;
+  font-family: 'Open Sans', sans-serif;
+  background-image:url('images/background.jpg');
+  background-size:100%;
+  background-repeat:no-repeat;
+  background-attachment:fixed
+}
+.kotak {
+  position: relative;
+  background: #fff;
+  border: 3px solid #008080;
+  color: #333;
+  text-align: center;
+  width: 500px;
+  height: 300px;
+  margin: 0 auto;
+  min-height: 100px;
+  min-width: 150px;
+  box-shadow: -0.3em 0.3em 0.5em rgba(0,0,0,0.2);
+}
+.info{
+  background: #008080;
+  font-color:white;
+  top: 0;
+  right: 20px;
+  z-index: 1;
+  color: #eee;
+  font-size: 40px;
+  width: 30px;
+  line-height: 10px;
+}
+.kotak-content{
+  padding: 40px 0;
+}
+.deskripsi{
+  font-style: italic;
+  font-size: 15px;
+  color: #989898;
+}
+</style>
+</head>
+<body>
+<div class="kotak">
+    <a class="info">Hubungi</a>
+    <div class="kotak-content">
+ <form class="form" action="">
+  Nama:<br>
+  <input type="text" name="firstname" placeholder="Mickey"><br>
+  Email:<br>
+  <input type="text" name="lastname" placeholder="batim@gmail.com"><br>
+  Pesan:<br>
+  <textarea name="message" cols="20" rows="5" required="required" placeholder="Message"></textarea><br>
+  <input type="submit" value="Submit">
+</form>
+    </div>
+</div>
+
+</body>
+</html>
